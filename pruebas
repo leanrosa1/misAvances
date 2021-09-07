@@ -1,0 +1,9 @@
+def perro():
+    cuenta = 0
+    for num in range(366):
+        cuenta = cuenta + num
+
+    return cuenta
+
+print(perro())
+
